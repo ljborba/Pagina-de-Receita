@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url(fonts.css);
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #ff6b28;
+    padding: 3rem;
+    text-align: center;
+}
+
+h1 {
+    color: #ff6b28;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+button {
+    background-color: #ff6b28;
+    border-radius: 1.2rem;
+    color: #ffffff;
+    padding: 1rem;
+    border: none;
+}
+
+button:hover {
+    background-color: #ff5100;
+}
+
+footer {
+    background-color: #ff6b28;
+    color: #ffffff;
+}
+
+footer > p {
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+}
+
+.container {
+    max-width: 50%;
+    margin: auto;
+}
+
+.mx-w100 {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+
+.subtitle {
+    color: #ff6b28;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.l-height {
+    line-height: 1.5em;
+}
+
+
+
+
+
+
+
